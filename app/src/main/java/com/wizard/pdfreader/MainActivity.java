@@ -12,6 +12,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.i("wizard","test");
+        Log.i("wizard","testt");
     }
 }
