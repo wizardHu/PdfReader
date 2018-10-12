@@ -34,7 +34,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -82,7 +83,9 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
-                android:padding="10dp">
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="-10dp"
+                >
 
                 <RelativeLayout
                     android:layout_width="0dp"
@@ -94,12 +97,15 @@
                         android:id="@+id/bookmark"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
                         android:text="书签"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="18"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="3dp"
                         android:layout_below="@+id/bookmark"/>
 
                 </RelativeLayout>
@@ -113,12 +119,15 @@
                         android:id="@+id/note"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
                         android:text="笔记"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="18"
+                        android:layout_marginTop="3dp"
+                        android:layout_centerInParent="true"
                         android:layout_below="@+id/note"/>
 
                 </RelativeLayout>
@@ -128,19 +137,21 @@
                     android:layout_width="0dp"
                     android:layout_weight="1.0"
                     android:layout_height="match_parent"
-                    android:gravity="center"
                     >
 
                     <TextView
                         android:id="@+id/readCount"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
                         android:text="阅读"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
                         android:text="18"
+                        android:layout_marginTop="3dp"
                         android:layout_below="@+id/readCount"/>
 
                 </RelativeLayout>
