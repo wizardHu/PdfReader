@@ -1,12 +1,8 @@
 package com.wizard.pdfreader;
 
 import android.os.Bundle;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.design.widget.CoordinatorLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.wizard.adapter.BookListAdapter;
@@ -20,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
     private String[] data = { "Apple", "Banana", "Orange", "Watermelon",
             "Pear", "Grape", "Pineapple", "Strawberry", "Cherry", "Mango", "Mango", "Mango", "Mango", "Mango", "Mango" };
-
     @ViewById
     ListView listview;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
