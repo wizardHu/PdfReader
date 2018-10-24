@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pre_page">&gt;</string>
+    <string name="next_page"></string>
+    <string name="screen_switch">切屏</string>
+
+</resources>

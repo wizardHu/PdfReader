@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/bottom_container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/bottom_operator_layout" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/top_menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <include layout="@layout/top_operator_layout" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

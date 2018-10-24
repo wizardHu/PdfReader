@@ -19,6 +19,7 @@ android {
 
 dependencies {
     //noinspection GradleCompatible
+    implementation project(':android-pdf-viewer')
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support:cardview-v7:26.1.0'
     implementation 'org.androidannotations:androidannotations-api:4.4.0'
